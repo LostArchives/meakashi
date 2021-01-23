@@ -26,7 +26,7 @@ void BrandLogo()
 	Wait( 2000 );
 	DrawSceneWithMask( "07th-mod", "logomask", 0, 0, 1000 );
 	Wait( 2000 );
-	SetValidityOfInput( FALSE );
+	//SetValidityOfInput( FALSE );
 	DrawSceneWithMask( "VF_R", "logomask", 0, 0, 1000 );
 	Wait( 9000 );
 	SetValidityOfInput( TRUE );
