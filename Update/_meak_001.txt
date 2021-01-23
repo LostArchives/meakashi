@@ -17,7 +17,7 @@
 	DrawScene("black", 3000 );
 	SetSpeedOfMessage( FALSE, 0 );
 
-	PlayBGM( 1, "yoru", 56, 0 );
+	PlayBGM( 0, "yoru", 56, 0 );
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…キーホルダーに括り付けられたカギは大小７つ。",
